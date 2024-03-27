@@ -7,7 +7,7 @@ Install Flask-Setup using GIT
 
 ```bash
 git clone "https://github.com/jackablett/Flask-Setup.git" "flask-setup"
-cd "flask-setup"
+cd "flask-setup/src"
 pip install -r requirements.txt
 ```
 
