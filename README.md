@@ -114,5 +114,7 @@ Specifies the name of the Flask project or website. This can be useful for gener
 ```
 Defines the layout or template structure for the Flask project. This could refer to different HTML/CSS frameworks or custom layouts. Implementing different layouts allows for flexibility in the project's design and structure.
 
+> If included you can visit [site]:[port]/template to view the template being used from a file, similary if Tailwindcss is installed you will see the styling.
+
 ## Bugs?
 If you notice any bugs or would like a new featue, please create an issue or pull request, cheers.

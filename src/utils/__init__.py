@@ -68,4 +68,4 @@ def install_tailwind(destination: str) -> None:
     shutil.copyfile("utils/examples/base.css", os.path.join(destination, "app", "static", "css", "base.css"))
     shutil.copyfile("utils/examples/tailwind.config.js", os.path.join(destination, "tailwind.config.js"))
     os.system(f"cd {destination} && npx tailwindcss -i app/static/css/base.css -o app/static/css/styles.css")
-    log("Created base.css to be used in index.html")
+    log("Created base.css & styles.css to be used in index.html")
