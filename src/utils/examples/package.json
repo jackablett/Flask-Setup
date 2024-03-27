@@ -1,0 +1,14 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "tailwind": "npx tailwindcss -i app/static/css/base.css -o app/static/css/styles.css --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
